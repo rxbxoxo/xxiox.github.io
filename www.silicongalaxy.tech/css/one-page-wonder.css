@@ -1,0 +1,194 @@
+body {
+  font-family: 'Lato';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'roboto';
+}
+
+.btn-xl {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.rounded-pill {
+  border-radius: 5rem;
+}
+
+.navbar-custom {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  background-color: white ;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+.navbar-custom .navbar-brand {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+
+
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background-image: url("hero1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.cseismicmast{
+    background-image: url("cseismicbanner.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+header.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+header.masthead .masthead-content .masthead-heading {
+  font-size: 80px !important;
+  color: black;
+  font-family: roboto;
+}
+
+header.masthead .masthead-content .masthead-subheading {
+  font-size: 2.5rem !important;
+  color: black;
+}
+
+#kodotek{
+    height: 100%;
+    background-color: #fe7c52;
+    color: white;
+}
+
+#hackathon{
+    background-color: #f2f2f2;
+    height: 100%;
+}
+
+#knackers{
+    background-color: #68C3E2;
+
+}
+
+#Crypters{
+    background-color: #cacbcc;
+}
+
+#NCICT{
+    background-color: #0E89A8;
+    color: white;
+}
+
+#Game-o-lution{
+    background-color: #fdd692;
+}
+
+#VidZard{
+    background-color: #754f44;
+    color: white;
+}
+
+.form_padding{
+    padding: 50px;
+}
+
+.team_info{
+    border-style: solid;
+    border-width: thin;
+    border-color: #c6c2c2;
+    padding: 10px;
+}
+
+.payment_info{
+    border-style: solid;
+    border-width: thin;
+    border-color: #c6c2c2;
+    padding: 10px;
+}
+
+.Paytm_info{
+    padding: 30px;
+}
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 6rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 4rem;
+  }
+}
+
+.bg-primary {
+  background-color: #ee0979 !important;
+}
+
+.btn-primary {
+  background-color: #3135d500;
+  border-color: #fff;
+}
+
+.btn-primary-black {
+  background-color: #3135d500;
+  border-color: #000000;
+  color: #000000;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #4447d5 !important;
+  border-color: #4447d5 !important;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+}
+
+.btn-secondary {
+  background-color: #ff6a00;
+  border-color: #ff6a00;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  background-color: #cc5500 !important;
+  border-color: #cc5500 !important;
+}
+
+.btn-secondary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
